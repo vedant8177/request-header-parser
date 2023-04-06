@@ -1,7 +1,7 @@
 # Request Header Parser
 
 ## Live Demo
-You can see a live demo of this project at https://request-header-parser-microservice.freecodecamp.rocks/.
+You can see a live demo of this project at https://request-header-parser.vedantsapalkar.repl.co.
 
 The Request Header Parser Microservice is a full stack JavaScript app that retrieves the user's IP address, preferred language, and system information by analyzing the request headers sent by the user's browser.
 
@@ -23,9 +23,9 @@ Technologies Used
 
 Returns a JSON object with the following keys:
 
-- ipaddress - the IP address of the client requesting the service.
-- language - the preferred language of the client requesting the service.
-- software - the operating system and browser used by the client requesting the service.
+- `ipaddress` - the IP address of the client requesting the service.
+- `language` - the preferred language of the client requesting the service.
+- `software` - the operating system and browser used by the client requesting the service.
 
 Example response:
 ```
